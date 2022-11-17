@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About Me</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body class="bg-light text-dark">
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <span style="font-size: 30px; font-weight: bold"> Wenjing Lin </span>
+                <span style="font-size: 25px; font-weight: lighter">/ SOFTWARE ENGINEER</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resumeTitle">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactTitle">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <!-- HOME -->
+        <div class="position-relative" id="mainContainer">
+          <!-- Back layer -->
+          <div id="backLayer">
+            <img src="backLayer.png" id="bgImg">
+          </div>
+          <!-- Front layer -->
+          <div class="row" id="frontLayer">
+            <!-- Pic column-->
+            <div class="col" id="picCol">
+              <div class="card shadow" style="width: 22rem">
+                <img src="frontLayer.png" class="card-img-top">
+                <!-- My pic -->
+                <img src="myPic.png" class="card-img-top" id="myPic">
+                <!-- Name & Title -->
+                <div class="fw-bold fs-3 text-center" id="name">
+                  <p>Wenjing<br>Lin</p>
+                </div>
+                <div class="fw-lighter fs-5 text-center" id="title">
+                  <p>SOFTWARE ENGINEER</p>
+                </div>
+
+                <div class="card-body">
+                  <!-- Find me -->
+                  <ul class="card-text nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="mailto: wenjing.lin@berkeley.edu"><img src="email.png" alt="email" width="24" height="24"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://github.com/Gitcatmeoww?tab=repositories"><img src="github.png" alt="github" width="24" height="24"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="www.linkedin.com/in/gitcat"><img src="linkedin.png" alt="linkedin" width="24" height="24"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.instagram.com/gitcatmeow/"><img src="ig.png" alt="instagram" width="24" height="24"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Self-intro -->
+            <div class="col" id="introCol">
+              <div class="fw-lighter" id="intro">   
+                <h1>HELLO, WORLD!</h1> 
+                <p>I'm a first year graduate student at University of California, Berkeley, majoring in information management and systems.</p>
+                <p>My prior academic training was in Psychology, and I've worked as a UX researcher for 5 years.</p>           
+                <p>I aspire to transition from a researcher providing retroactive insights to an engineer implementing potential scalable solutions to assist minorities.</p>            
+                <p>Beyond school, I am a cat lover / tennis enthusiastic / major foodie / shutterbug / blogger.</p>
+              </div>
+            </div>
+          
+          <!-- RESUME -->
+          <div class="row" id="resume">
+              <h1 id="resumeTitle">RESUME
+                <span>
+                  <svg id="pdf" t="1663888774581" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2642" width="28" height="28">
+                    <path d="M847.644444 1024H150.755556c-48.355556-5.688889-88.177778-42.666667-93.866667-93.866667V93.866667C62.577778 45.511111 102.4 5.688889 150.755556 0h466.488888l327.111112 327.111111v605.866667c-8.533333 48.355556-48.355556 85.333333-96.711112 91.022222z m0-696.888889h-184.888888c-25.6-2.844444-45.511111-22.755556-45.511112-45.511111V93.866667H196.266667c-25.6-2.844444-45.511111 17.066667-45.511111 42.666666v748.088889c5.688889 22.755556 22.755556 42.666667 45.511111 45.511111h605.866666c25.6-2.844444 45.511111-22.755556 45.511111-45.511111V327.111111z m-128 358.4c-45.511111-2.844444-91.022222-19.911111-125.155555-51.2-68.266667 17.066667-133.688889 36.977778-199.111111 65.422222-54.044444 93.866667-102.4 139.377778-142.222222 139.377778-8.533333 0-17.066667-2.844444-25.6-5.688889-17.066667-8.533333-28.444444-25.6-28.444445-45.511111 0-14.222222 2.844444-56.888889 162.133333-128 36.977778-65.422222 65.422222-136.533333 88.177778-207.644444-19.911111-39.822222-62.577778-139.377778-34.133333-190.577778 11.377778-17.066667 31.288889-28.444444 51.2-28.444445 17.066667 0 34.133333 8.533333 45.511111 22.755556 22.755556 31.288889 19.911111 93.866667-8.533333 190.577778 28.444444 51.2 62.577778 96.711111 105.244444 133.688889 34.133333-8.533333 71.111111-11.377778 105.244445-11.377778 79.644444 0 91.022222 36.977778 91.022222 59.733333-2.844444 56.888889-59.733333 56.888889-85.333334 56.888889zM247.466667 787.911111h5.688889c22.755556-8.533333 42.666667-25.6 54.044444-45.511111-25.6 8.533333-45.511111 25.6-59.733333 45.511111zM469.333333 284.444444h-5.688889c-2.844444 0-5.688889 0-5.688888 2.844445-5.688889 28.444444-2.844444 59.733333 11.377777 85.333333 8.533333-28.444444 8.533333-59.733333 0-88.177778z m14.222223 244.622223v2.844444-2.844444c-17.066667 39.822222-34.133333 79.644444-51.2 116.622222l2.844444-2.844445-2.844444 2.844445c36.977778-14.222222 76.8-25.6 113.777777-34.133333h2.844445c-25.6-25.6-48.355556-54.044444-65.422222-82.488889z m227.555555 88.177777c-14.222222 0-28.444444 0-42.666667 2.844445 17.066667 8.533333 34.133333 11.377778 51.2 14.222222 11.377778 2.844444 22.755556 0 34.133334-2.844444-2.844444-5.688889-8.533333-11.377778-42.666667-14.222223z" fill="#666666" p-id="2643"></path>
+                  </svg>
+                </span>
+              </h1>
+              <!-- Professional Experience -->
+              <div class="col" id="proExp">
+                <h3>Professional Experience</h3>
+                <div class="list-group">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">ByteDance Ltd.</h6>
+                    <small>Feb 2020 – Mar 2021</small>
+                  </div>
+                  <p class="mb-1"><i>Senior User Researcher</i></p>
+                  <p></p>
+
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Ant Group Co., Ltd.</h6>
+                    <small>May 2017 – Feb 2020</small>
+                  </div>
+                  <p class="mb-1"><i>Data Scientist / User Researcher</i></p>
+                  <p></p>
+                </div>
+                <!-- Technical Skills -->
+                <h3>Technical Skills</h3>
+                <h6 class="mb-1">Java / C / Python</h6>
+                <h6 class="mb-1">HTML / CSS / JavaScript</h6>
+                <h6 class="mb-1">React.js / Node.js / Vue.js</h6>
+                <h6 class="mb-1">SQL / R / SPSS</h6>
+                <h6 class="mb-1">Shell / Git</h6>
+              </div>
+              <!-- Research Experience -->
+              <div class="col" id="resExp">
+                <h3>Research Experience</h3>
+                <div class="list-group">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Center for Psychological Sciences at ZJU</h6>
+                  </div>
+                  <p class="mb-1"><i>Graduate Research Assistant</i></p>
+                  <small>Oct 2017 – Apr 2018</small>
+                  <p></p>
+                </div>
+                <!-- Education -->
+                <h3>Education</h3>
+                <div class="list-group">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">University of California, Berkeley</h6>
+                    <small>Aug 2022 – May 2024</small>
+                  </div>
+                  <p class="mb-1"><i>Master of Information Management and Systems</i></p>
+                  <p></p>
+
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Zhejiang University</h6>
+                    <small>Sep 2015 – June 2018</small>
+                  </div>
+                  <p class="mb-1"><i>Master in Education (Psychology)</i></p>
+                  <p></p>
+
+                  <div class="d-flex w-100 justify-content-between">
+                    <h6 class="mb-1">Soochow University</h6>
+                    <small>Sep 2011 – June 2015</small>
+                  </div>
+                  <p class="mb-1"><i>B.S. in Psychology with Honours</i></p>
+                  <p></p>
+                </div>
+              </div>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="row">
+            <div class="col">
+              <div class="fw-lighter">
+                <h1 id="contactTitle">LET'S CONNECT!</h1>
+                <form name="contactForm" id="contactForm">
+                  <!-- Topic selection -->  
+                    <select class="form-select" name="topic" id="topic" aria-label="Default select example">
+                      <option selected>What topic do you want to talk with me?</option>
+                      <option value="1">Academic discussion</option>
+                      <option value="2">Working experience</option>
+                      <option value="3">Personal issues</option>
+                      <option value="4">General topics</option>
+                    </select>
+                  <!-- Comment texts -->
+                    <textarea class="form-control" name="comment" id="comment" placeholder="Please leave your comment here" style="height: 100px"></textarea>
+                  <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary">
+                        <span id="bottonText">Submit</span>
+                    </button>
+                </form>
+              </div> 
+            </div>
+            
+            <div class="col"></div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+          <div class="fixed-bottom fw-light fst-italic text-end" id="copyright">
+            <p>©2022 by Wenjing Lin</p>
+          </div>
+        </footer>
+
+        <!-- SCRIPT -->
+        <script src="script.js"></script>
+    </body> 
+</html>
