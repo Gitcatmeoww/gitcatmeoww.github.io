@@ -1,0 +1,87 @@
+#navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+}
+
+#backLayer {
+    position: absolute;
+    top: 8rem;
+}
+
+#bgImg {
+    width: 35rem;
+    height: 42rem;
+}
+
+#frontLayer {
+    position: absolute;
+    left: 20rem;
+    top: 13rem;
+    z-index: 10;
+}
+
+#myPic {
+    position: absolute;
+    left: 3.3rem;
+    top: 2rem;
+    z-index: 10;
+    width: 15rem;
+    height: 15rem
+}
+
+#name {
+    position: absolute;
+    left: 7.5rem;
+    top: 18rem;
+    z-index: 10;
+}
+
+#title {
+    position: absolute;
+    left: 5rem;
+    top: 24rem;
+    z-index: 10;
+}
+
+#introCol {
+    padding-right: 16rem;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    padding-bottom: 0.5em;
+    color:#E2D4CA;
+}
+
+#resume {
+    margin-top: 10rem;
+}
+
+#pdf {
+    margin-left: 1.3rem;
+    margin-bottom: 0.55rem;
+}
+
+#proExp, #resExp {
+    margin-right: 7rem;
+}
+
+#contactTitle {
+    padding-top: 1.5em;
+}
+
+#copyright {
+    padding-right: 2em;
+}
+
+select, textarea, button {
+    margin-bottom: 1em;
+}
+
+
